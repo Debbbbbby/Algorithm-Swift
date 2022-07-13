@@ -7,7 +7,7 @@
 
 import Foundation
 
-// 첫번째 풀이!
+// 첫번째 풀이
 let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
 let (a, b) = (n[0], n[1])
 
@@ -18,6 +18,6 @@ for i in 0..<b {
     print()
 }
 
-// 두번째 풀이!
-//let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
-//print(String(repeating: String(repeating: "*", count: n[0])+"\n",count: n[1]))
+// 두번째 풀이
+let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+print(String(repeating: String(repeating: "*", count: n[0])+"\n",count: n[1]))
