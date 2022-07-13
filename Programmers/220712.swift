@@ -7,7 +7,7 @@
 
 import Foundation
 
-// 첫번째 풀이
+// 첫번째 풀이!
 let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
 let (a, b) = (n[0], n[1])
 
