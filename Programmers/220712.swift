@@ -3,7 +3,7 @@
 //  Algorithm-Swift
 //
 //  Created by Debby on 2022/07/12.
-//
+//  직사각형 별찍기
 
 import Foundation
 
