@@ -7,14 +7,20 @@
 
 import Foundation
 
-print("Hello, World!")
+//print("Hello, World!")
 
-func solution(_ arr1: [[Int]], _ arr2: [[Int]]) -> [[Int]] {
-    print(zip(arr1, arr2))
-    print(zip(arr1, arr2).map{zip($0,$1)})
-    print(zip(arr1, arr2).map{zip($0,$1).map{$0+$1}})
-    
-    return zip(arr1, arr2).map{zip($0,$1).map{$0+$1}}
-}
+//let line = readLine()!
+//let intArr = line.components(separatedBy: " ").map{ Int($0)! }
+//print(intArr.reduce(0, +))
 
-print(solution([[1,2],[2,3]],[[3,4],[5,6]]))
+//print(readLine()!.split(separator: " ").map{ Int(String($0))! }.reduce(0, -))
+
+
+print(#"""
+         ,r'"7
+r`-_   ,'  ,/
+ \. ". L_r'
+   `~\/
+      |
+      |
+"""#)
