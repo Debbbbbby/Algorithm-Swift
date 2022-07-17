@@ -7,20 +7,6 @@
 
 import Foundation
 
-//print("Hello, World!")
+//print("Hello World!")
 
-//let line = readLine()!
-//let intArr = line.components(separatedBy: " ").map{ Int($0)! }
-//print(intArr.reduce(0, +))
-
-//print(readLine()!.split(separator: " ").map{ Int(String($0))! }.reduce(0, -))
-
-
-print(#"""
-         ,r'"7
-r`-_   ,'  ,/
- \. ". L_r'
-   `~\/
-      |
-      |
-"""#)
+print(Character(readLine()!).unicodeScalars.first!.value)
