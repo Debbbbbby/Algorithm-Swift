@@ -37,6 +37,9 @@
 		868E506F2881763500EB31B1 /* 220715.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220715.swift; sourceTree = "<group>"; };
 		868E507028818E7E00EB31B1 /* 220715.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220715.swift; sourceTree = "<group>"; };
 		86DB7BF7288597350009E53B /* 220718.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220718.swift; sourceTree = "<group>"; };
+		86DB7BF8288670140009E53B /* 220719.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220719.swift; sourceTree = "<group>"; };
+		86DB7BFA2886DBF80009E53B /* 220718.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220718.swift; sourceTree = "<group>"; };
+		86DB7BFB2886DC090009E53B /* 220719.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 220719.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +82,7 @@
 		86011228287D76EE00E5EFD9 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				86011229287D770900E5EFD9 /* 220712.swift */,
-				8687582A287E8D1500BA1EA7 /* 220713.swift */,
-				86809B6E287FCD3500AD9CB3 /* 220714.swift */,
-				868E506F2881763500EB31B1 /* 220715.swift */,
-				866417B22882E83E009C812C /* 220716.swift */,
-				867804702883D5B10020CBB3 /* 220717.swift */,
-				86DB7BF7288597350009E53B /* 220718.swift */,
+				86DB7BF9288692AB0009E53B /* Level1 */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -98,8 +95,25 @@
 				868E507028818E7E00EB31B1 /* 220715.swift */,
 				867804712883DAD80020CBB3 /* 220716.swift */,
 				867804732883DB0C0020CBB3 /* 220717.swift */,
+				86DB7BFA2886DBF80009E53B /* 220718.swift */,
+				86DB7BFB2886DC090009E53B /* 220719.swift */,
 			);
 			path = Baekjoon;
+			sourceTree = "<group>";
+		};
+		86DB7BF9288692AB0009E53B /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				86011229287D770900E5EFD9 /* 220712.swift */,
+				8687582A287E8D1500BA1EA7 /* 220713.swift */,
+				86809B6E287FCD3500AD9CB3 /* 220714.swift */,
+				868E506F2881763500EB31B1 /* 220715.swift */,
+				866417B22882E83E009C812C /* 220716.swift */,
+				867804702883D5B10020CBB3 /* 220717.swift */,
+				86DB7BF7288597350009E53B /* 220718.swift */,
+				86DB7BF8288670140009E53B /* 220719.swift */,
+			);
+			path = Level1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
