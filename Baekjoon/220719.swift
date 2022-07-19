@@ -16,7 +16,7 @@ let testCase = Int(readLine()!)!
     let s = input[1]
     s.forEach { s in
         // s의 각 자리값을 cnt만큼 반복해서 공백 없이 하나로 이어 붙여 출력
-        // 이 때 프린트는 repeating for Each가 끝나고 작동한다.
+        // 이 때 프린트는 repeating forEach가 끝나고 작동한다.
         print(String(repeating: s, count: cnt), terminator: "")
     }
     print()
