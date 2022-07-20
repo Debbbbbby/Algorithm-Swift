@@ -3,7 +3,7 @@
 //  Algorithm-Swift
 //
 //  Created by Debby on 2022/07/20.
-//  짝수와 홀수,
+//  짝수와 홀수, 제일 작은 수 제거하기
 
 import Foundation
 
