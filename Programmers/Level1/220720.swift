@@ -1,24 +1,22 @@
 //
-//  main.swift
+//  220720.swift
 //  Algorithm-Swift
 //
-//  Created by Debby on 2022/07/12.
-//
+//  Created by Debby on 2022/07/20.
+//  짝수와 홀수,
 
 import Foundation
 
 // 짝수와 홀수
-//func solution(_ num:Int) -> String {
-//    if (num % 2 == 0) || (num == 0) {
-//        return "Even"
-//    } else {
-//        return "Odd"
-//    }
-//}
-//print(solution(0))
+func solution(_ num:Int) -> String {
+    if (num % 2 == 0) || (num == 0) {
+        return "Even"
+    } else {
+        return "Odd"
+    }
+}
 
-
-// 제일 작은 수 제거하기
+// 제일 작은 수 제거하기 : 8점!
 func solution(_ arr:[Int]) -> [Int] {
     var array = arr
     if arr.count == 1 {
@@ -30,4 +28,3 @@ func solution(_ arr:[Int]) -> [Int] {
     }
     return array
 }
-print(solution([4,3,2,1]))
