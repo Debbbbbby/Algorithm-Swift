@@ -89,17 +89,57 @@
 			path = Programmers;
 			sourceTree = "<group>";
 		};
-		8687584B287F0A0000BA1EA7 /* Baekjoon */ = {
+		861BFD6B288938DC00C629DC /* Level1 */ = {
 			isa = PBXGroup;
 			children = (
 				8687584D287F0B8B00BA1EA7 /* 220713.swift */,
 				86809B6F28803E6500AD9CB3 /* 220714.swift */,
+			);
+			path = Level1;
+			sourceTree = "<group>";
+		};
+		861BFD6C2889392F00C629DC /* Level2 */ = {
+			isa = PBXGroup;
+			children = (
 				868E507028818E7E00EB31B1 /* 220715.swift */,
+			);
+			path = Level2;
+			sourceTree = "<group>";
+		};
+		861BFD6D2889396B00C629DC /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
 				867804712883DAD80020CBB3 /* 220716.swift */,
-				867804732883DB0C0020CBB3 /* 220717.swift */,
-				86DB7BFA2886DBF80009E53B /* 220718.swift */,
+			);
+			path = Level3;
+			sourceTree = "<group>";
+		};
+		861BFD6E2889398400C629DC /* etc */ = {
+			isa = PBXGroup;
+			children = (
 				86DB7BFB2886DC090009E53B /* 220719.swift */,
+				867804732883DB0C0020CBB3 /* 220717.swift */,
 				86DB7BFC28870F920009E53B /* 220720.swift */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+		861BFD6F288939A900C629DC /* Level4 */ = {
+			isa = PBXGroup;
+			children = (
+				86DB7BFA2886DBF80009E53B /* 220718.swift */,
+			);
+			path = Level4;
+			sourceTree = "<group>";
+		};
+		8687584B287F0A0000BA1EA7 /* Baekjoon */ = {
+			isa = PBXGroup;
+			children = (
+				861BFD6F288939A900C629DC /* Level4 */,
+				861BFD6E2889398400C629DC /* etc */,
+				861BFD6D2889396B00C629DC /* Level3 */,
+				861BFD6C2889392F00C629DC /* Level2 */,
+				861BFD6B288938DC00C629DC /* Level1 */,
 			);
 			path = Baekjoon;
 			sourceTree = "<group>";
